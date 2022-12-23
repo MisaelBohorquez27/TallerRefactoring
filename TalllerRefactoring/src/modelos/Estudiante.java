@@ -2,8 +2,10 @@ package modelos;
 
 import java.util.ArrayList;
 
+<<<<<<< HEAD
 public class Estudiante extends Calculador_puntajes{
   
+
     public String matricula;
     public String nombre;
     public String apellido;
@@ -13,7 +15,7 @@ public class Estudiante extends Calculador_puntajes{
     public String telefono;
     public ArrayList<Paralelo> paralelos;
     
-    
+
 
     public String getMatricula() {
         return matricula;
@@ -23,7 +25,7 @@ public class Estudiante extends Calculador_puntajes{
         this.matricula = matricula;
     }
 
-    //Getter y setter del Nombre
+   
     public String getNombre() {
         return nombre;
     }
@@ -32,7 +34,7 @@ public class Estudiante extends Calculador_puntajes{
         this.nombre = nombre;
     }
     
-   
+
     public String getApellido() {
         return apellido;
     }
@@ -50,7 +52,7 @@ public class Estudiante extends Calculador_puntajes{
         this.facultad = facultad;
     }
     
-    
+
     public int getEdad() {
         return edad;
     }
@@ -59,7 +61,7 @@ public class Estudiante extends Calculador_puntajes{
         this.edad = edad;
     }
     
-    
+
     public String getDireccion() {
         return direccion;
     }
@@ -77,6 +79,7 @@ public class Estudiante extends Calculador_puntajes{
         this.telefono = telefono;
     }
     
+
     public double CalcularNotaTotal(Paralelo p){
         double notaTotal=0;
         for(Paralelo par:paralelos){
