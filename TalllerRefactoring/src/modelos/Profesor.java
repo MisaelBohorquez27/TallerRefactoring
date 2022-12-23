@@ -3,6 +3,9 @@ package modelos;
 import java.util.ArrayList;
 
 public class Profesor {
+    public int añosdeTrabajo;
+    public String facultad;
+    public double BonoFijo;
     public String codigo;
     public String nombre;
     public String apellido;
